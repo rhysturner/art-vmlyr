@@ -1,0 +1,72 @@
+# Blender MTL File: 'trees.blend'
+# Material Count: 6
+
+newmtl BaseTree
+Ns 14.578512
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/cesar/biblioteca blender/packs/lowpoly nature/Basetreecolor.png
+map_d /Users/cesar/biblioteca blender/packs/lowpoly nature/Basetreecolor.png
+
+newmtl Cherrytree
+Ns 14.578512
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/cesar/biblioteca blender/packs/lowpoly nature/textures/Cherry.png
+map_d /Users/cesar/biblioteca blender/packs/lowpoly nature/textures/Cherry.png
+
+newmtl FRUITS
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/cesar/biblioteca blender/packs/lowpoly nature/textures/FRUITS.png
+
+newmtl Oak
+Ns 14.578512
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_d /Users/cesar/biblioteca blender/packs/lowpoly nature/Basetreecolor.png
+
+newmtl Palm
+Ns 14.578512
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/cesar/biblioteca blender/packs/lowpoly nature/textures/Palm Base Color.png
+map_d /Users/cesar/biblioteca blender/packs/lowpoly nature/textures/Palm Base Color.png
+
+newmtl Pine
+Ns 14.578512
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd /Users/cesar/biblioteca blender/packs/lowpoly nature/textures/Pinecolor.png
+map_d /Users/cesar/biblioteca blender/packs/lowpoly nature/textures/Pinecolor.png
