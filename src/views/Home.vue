@@ -4,9 +4,6 @@
       <nav>
         <ul>
           <li>
-            <router-link to="/gallery">Gallery</router-link>
-          </li>
-          <li>
             <router-link to="/virtual-gallery">Virtual Gallery</router-link>
           </li>
           <li>

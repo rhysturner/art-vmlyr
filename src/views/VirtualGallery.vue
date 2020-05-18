@@ -4,10 +4,10 @@
             <a-asset-item id="trees-obj" src="../../object/models/trees/trees.obj"></a-asset-item>
             <a-asset-item id="trees-mtl" src="../../object/models/trees/trees.mtl"></a-asset-item>
             
-      <a-asset-item id="demo1" src="../../object/models/nooks-cranny/source/Nook.obj"></a-asset-item>
-      <a-asset-item id="demo2" src="../../object/models/tree.gltf"></a-asset-item>
-      <a-asset-item id="demo3" src="../../object/models/trees/trees.gltf"></a-asset-item>
-      <a-asset-item id="bottle" src="../../WaterBottle.gltf"></a-asset-item>
+      <a-asset-item id="demo1" src="/object/models/nooks-cranny/source/Nook.obj"></a-asset-item>
+      <a-asset-item id="demo2" src="/object/models/tree.gltf"></a-asset-item>
+      <a-asset-item id="demo3" src="/object/models/trees/trees.gltf"></a-asset-item>
+      <a-asset-item id="bottle" src="WaterBottle.gltf"></a-asset-item>
      
       <img id="texture" src="../../public/object/img/textures/frame-texture.png" />
       <img id="artwork1" src="../../public/object/img/artwork/01-mona-lisa.jpg" />
@@ -28,14 +28,14 @@
       
       <script id="level-0" type="text/html">
         <a-scene>
-          <!-- <a-entity gltf-model="#bottle" scale="10 10 10"  position="0 1 0"></a-entity> -->
+          <a-entity gltf-model="#bottle" scale="10 10 10"  position="0 1 0"></a-entity>
           <a-entity gltf-model="#demo3" scale="1 1 1"  position="0 1 0"></a-entity>
         </a-scene>
       </script>
 
       <script id="trees-obj-demo" type="text/html">
         <a-scene>
-          <!-- <a-entity obj-model="obj: #demo1;"></a-entity> -->
+          <a-entity obj-model="obj: #demo1;"></a-entity>
           <a-entity obj-model="obj: #trees-obj; mtl: #trees-mtl" position="0 1 0"></a-entity>
         </a-scene>
       </script>
@@ -61,10 +61,9 @@
     </a-assets>
 
     <a-entity environment="preset: forest" />
-    <!-- <a-entity environment="preset: default" /> -->
 
-    <a-entity template="src: #trees-obj-demo"></a-entity>
-    <!-- <a-entity template="src: #level-0"></a-entity> -->
+    <!-- <a-entity template="src: #trees-obj-demo"></a-entity> -->
+    <a-entity template="src: #level-1"></a-entity>
 
     <a-entity camera="active: true" look-controls wasd-controls position="0 1.6 0">
       <a-entity
