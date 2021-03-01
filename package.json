@@ -25,7 +25,7 @@
     "parcel-bundler": "^1.12.3",
     "processing-js": "^1.6.6",
     "sass": "^1.14.2",
-    "three": "^0.113.2",
+    "three": "^0.125.0",
     "vue": "^2.5.17",
     "vue-audio-recorder": "^3.0.1",
     "vue-dictaphone": "^1.2.1",
